@@ -1,0 +1,196 @@
+body {
+    font-family: 'Hepta Slab', serif;
+    font-size: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}   
+
+header {
+    background-attachment: fixed;
+    background-image: url("../img/clean-background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    background-attachment: fixed;
+    background-image: url("../img/clean-background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;   
+    
+}
+nav {
+    align-items: center;
+    background-color: #4E7B80;
+/*
+    display: flex;
+    flex-direction: column;
+*/
+    height: 500px;
+/*    justify-content: space-around;*/
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 100px;
+    margin-left: 35%; 
+    line-height: 80px;
+/*    align-content: center;*/
+/*    flex-direction: column;*/
+}
+
+a {
+    color: #D0F9FF;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #D0F9FF;
+    text-decoration: none;
+}
+
+article {
+    background-image: url("../img/clean-background.jpg");
+}
+
+main{
+    background-attachment: fixed;
+    background-image: url("../img/clean-background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.figures{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+figcaption{
+/*    display: flex;*/
+    position: absolute;
+    text-align: justify;
+/*    justify-content: flex-start;*/
+    
+}
+
+
+figure{
+    display: flex;
+    flex-direction: row;
+/*    text-align: center;*/
+    margin: 20px;
+    text-align: center;
+    
+}
+h1 {
+    background-color: #c9c9c9;
+    color: #427780;
+    font-family: 'Hepta Slab', serif;
+    font-size: 2rem;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+h2 {
+    background-color: #c9c9c9;
+    color:#427780;
+    font-family: 'Hepta Slab', serif;
+    font-size:1.5rem;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+ 
+}
+h3 {
+    background-attachment: fixed;
+    background-image: url("../img/clean-background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Hepta Slab', serif;
+    font-size:1rem;
+    margin: 0;
+    padding: 30px;
+    text-align: left;
+ 
+}
+p{
+    
+}
+#sp>img{
+    margin-left: 50%;
+    margin-top: 40px;
+    float: right;
+}
+.preview{
+    height: 700px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+.me{
+    position: absolute;
+/*    width: 90%;*/
+}
+.me .lefttext{
+    font-size: 50px;
+    line-height: 1.5em;
+    padding-left: 8%;
+    position: absolute;
+    text-align: right;
+    top: 50px;
+    
+}
+.me > img{
+    margin-left: 95%;
+    margin-top: 15%;
+    position: relative;
+    padding-right: 8%;
+}
+
+
+p {
+    color: darkslategrey;
+    font-size:0.9rem;
+    padding: 10px;
+}
+
+img { padding-left: 150px;
+}
+
+footer{
+    text-align: center;
+}
+
+section1{
+    font-size: 12px;
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    line-height: 1.5em;
+    padding-left: 8%;
+    margin-right: 50%;
+    margin-top: 15%
+}
+
+section2{
+    font-size: 50px;
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    line-height: 1em;
+    padding-left: 8%;
+    margin-right: 50%;
+    margin-top: 15%
+} 
